@@ -1,0 +1,24 @@
+  
+[
+    {
+        "title": "First Project",
+        "description": "This was my first project",
+        "githubLink": "https://alitr.herokuapp.com/",
+        "deployedLink": "https://alitr.herokuapp.com/"
+       
+    },
+    {
+        "title": "Second Project",
+        "description": "This was my Second project",
+        "githubLink": "https://alitr.herokuapp.com/",
+        "deployedLink": "https://alitr.herokuapp.com/"
+       
+    },
+    {
+        "title": "Third Project",
+        "description": "This was my Third project",
+        "githubLink": "https://alitr.herokuapp.com/",
+        "deployedLink": "https://alitr.herokuapp.com/"
+        
+    }
+]

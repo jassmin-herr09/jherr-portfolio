@@ -1,9 +1,12 @@
+
 import React from "react"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const About = (props) => (
     <Layout>
-      <h1>About</h1>
+        <Head page="About" />
+        <h1>About</h1>
     </Layout>
 )
 
