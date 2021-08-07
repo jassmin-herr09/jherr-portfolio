@@ -1,9 +1,11 @@
 import React from "react"
 
+import { StyledFooter } from "../styles/styled-components"
+
 const Footer = (props) => (
-    <footer>
-     Footer
-    </footer>
+    <StyledFooter>
+     <p>Copyright &copy; All Rights Reserved {new Date().getFullYear()}</p>
+    </StyledFooter>
 )
 
 export default Footer

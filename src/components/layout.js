@@ -5,10 +5,13 @@ import Footer from "./footer"
 
 import "../styles/reset.css"
 
+import { StyledLayout } from "../styles/styled-components"
+
+
 
 const Layout = (props) => {
     return (
-        <>
+        <StyledLayout>
            <Header />
             <div>
                 <main>
@@ -17,7 +20,7 @@ const Layout = (props) => {
             </div>
             <Footer />
 
-        </>    
+        </StyledLayout>    
     )
 
 }
