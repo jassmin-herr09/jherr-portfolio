@@ -1,7 +1,7 @@
 
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby"
 
 const Head = ({ page }) => { 
     const { site: { siteMetadata: { title, description }}} = useStaticQuery(graphql`

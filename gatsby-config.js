@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "my-portfolio",
+    title: "Jassmin Fernandez",
     author: "Jassmin Fernandez"
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
     {
