@@ -38,6 +38,11 @@ const Header = (props) => {
                 Jassmin Fernandez
             </Link>
         </h1>
+        {
+            isSmallScreen ?
+            <Burger open={open} setOpen={setOpen} /> 
+            :
+
         <nav>
             <ul>
                 <li>
@@ -49,8 +54,17 @@ const Header = (props) => {
                 <li>
                     <Link to="/projects">Projects</Link>
                 </li>
+                 
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+
             </ul>
         </nav>
+
+   }
+
+   <NavDrawer open={open} setOpen={setOpen} />
     </StyledHeader>
     )
 }

@@ -6,7 +6,7 @@ import Head from "../components/head"
 const About = (props) => (
     <Layout>
         <Head page="About" />
-        <h1>About</h1>
+        <h1>About Me</h1>
     </Layout>
 )
 

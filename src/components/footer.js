@@ -4,8 +4,7 @@ import { StyledFooter } from "../styles/styled-components"
 
 const Footer = ({ title, author }) => (
     <StyledFooter>
-        <p>Copyright &copy; All Rights Reserved {title} {new Date().getFullYear()}</p>
-        <p><small>Created by {author}</small></p>
+        <p>&copy;2021 Jassmin Fernandez. All Rights Reserved</p>
     </StyledFooter>
 )
 

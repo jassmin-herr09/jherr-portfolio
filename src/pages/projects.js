@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import data from "../data/projects.json"
+import { StaticImage } from "gatsby-plugin-image"
 import projects from "../data/projects.json"
 
 
@@ -13,6 +15,7 @@ const Projects = () => {
               projects.map((project, idx) => {
                   return (
                     <article key={idx}>
+                      
                         <img style={{height: 175, border: "2px solid #333"}} src={project.image} alt={project.title} />
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>

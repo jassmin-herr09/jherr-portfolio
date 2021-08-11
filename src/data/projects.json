@@ -3,22 +3,26 @@
     {
         "title": "First Project",
         "description": "This was my first project",
-        "githubLink": "https://alitr.herokuapp.com/",
-        "deployedLink": "https://alitr.herokuapp.com/"
+        "githubLink": "https://github.com/jassmin-herr09/personalexpenseapp",
+        "deployedLink": "https://milli-money-expense-app.herokuapp.com/",
+        "image": "images/project-one.png"
        
     },
     {
         "title": "Second Project",
         "description": "This was my Second project",
-        "githubLink": "https://alitr.herokuapp.com/",
-        "deployedLink": "https://alitr.herokuapp.com/"
+        "githubLink": "https://github.com/jassmin-herr09/childrens-medicine-tracker-fontend",
+        "deployedLink": "https://kids-medicine-tracker.netlify.app/",
+        "image": "images/project-two.png"
        
     },
     {
         "title": "Third Project",
         "description": "This was my Third project",
-        "githubLink": "https://alitr.herokuapp.com/",
-        "deployedLink": "https://alitr.herokuapp.com/"
+        "githubLink": "https://github.com/jassmin-herr09/Alitr",
+        "deployedLink": "https://alitr.herokuapp.com/",
+        "image": "images/project-three.png"
         
-    }
+    }   
+
 ]
