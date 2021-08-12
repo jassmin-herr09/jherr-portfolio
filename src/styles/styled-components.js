@@ -137,3 +137,25 @@ transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
 }
 }
 `
+
+export const StyledForm = styled.form`
+    align-items: stretch;
+    box-sizing: border-box;
+    border: 2px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        background-color: #1f87db;
+        width: 10rem;
+        cursor: pointer;
+    }
+    .input {
+        width: 292px;
+        align-items: center;
+    }
+`
